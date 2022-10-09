@@ -1,0 +1,31 @@
+###
+POST localhost:8080/api/table
+Content-Type: application/json
+
+{
+  "tableName" : "Entity",
+  "columnNames" : ["key", "value"]
+}
+
+###
+GET localhost:8080/api/table
+
+###
+GET localhost:8080/api/table/Student
+
+###
+PUT localhost:8080/api/table
+Content-Type: application/json
+
+{
+  "currentName": "Entity1",
+  "nextName": "Entity"
+}
+
+###
+DELETE localhost:8080/api/table
+Content-Type: application/json
+
+{
+  "tableName": "Student"
+}
