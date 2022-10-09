@@ -1,8 +1,8 @@
 package org.outofoffice.eida.shard.controller;
 
 import lombok.Data;
-import org.outofoffice.common.testing.EidaSocketTestFacade;
-import org.outofoffice.common.testing.TestRequest;
+import org.outofoffice.eida.common.testing.EidaSocketTestFacade;
+import org.outofoffice.eida.common.testing.TestRequest;
 
 @Data
 public class DeleteTestRequest implements TestRequest {
