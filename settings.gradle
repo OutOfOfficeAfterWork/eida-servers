@@ -1,5 +1,4 @@
 rootProject.name = 'eida-servers'
-include 'eida-common'
 include 'eida-server-common'
 include 'eida-manager'
 include 'eida-shard'

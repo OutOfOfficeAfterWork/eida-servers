@@ -1,7 +1,6 @@
-package org.outofoffice.common.socket;
+package org.outofoffice.eida.api.configuration;
 
 import lombok.extern.slf4j.Slf4j;
-import org.outofoffice.common.exception.EidaException;
 
 import java.io.BufferedReader;
 import java.io.IOException;

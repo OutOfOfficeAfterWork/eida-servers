@@ -1,7 +1,7 @@
 package org.outofoffice.eida.api.service.client;
 
 import lombok.RequiredArgsConstructor;
-import org.outofoffice.common.socket.EidaSocketClient;
+import org.outofoffice.eida.api.configuration.EidaSocketClient;
 import org.outofoffice.eida.api.service.query.EidaDllGenerator;
 import org.outofoffice.eida.api.service.query.EidaManagerDdlGenerator;
 import org.springframework.beans.factory.annotation.Value;
